@@ -4,7 +4,10 @@ import { CellContainer, NumberCellContainer } from '@Elements';
 const moveKey = ({ x, y }) => {
   const [moveX, handleX] = useState(0);
   const [moveY, handleY] = useState(0);
-
+console.log('Hi');
+    const [moveX, handleX] = useState(0);
+  const [moveY, handleY] = useState(0);  const [moveX, handleX] = useState(0);
+  const [moveY, handleY] = useState(0);
   useEffect(
     () => {
       handleX(currentX => currentX + x);
